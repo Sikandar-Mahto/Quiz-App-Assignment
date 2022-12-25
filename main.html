@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="top-section">
+                <img src="./images/testbook.png" alt="testbook-logo"">
+                <h1 class="headings">Hello User!</h1>
+                <h3>Enter your name to continue the Quiz</h3>
+                <input id="name" type="text" placeholder="Enter Your Name" style="padding:5px">
+                <button onclick="enter()" style="padding:5px">Enter</button>
+            </div>
+            <div class="bottom-section">
+                <h1 class="headings">Select Category</h1>
+                <h6>These category button will navigate us to a list of 10 questions each</h6>
+                <button><a href="./Pipes and cisterns.html">Pipes and cisterns</a></button>
+                <button><a href="./Probability.html">Probability</a></button>
+                <button><a href="./problem and ages.html">Problem on Ages</a></button>
+                <button><a href="./profit and loss.html">Profit and Loss</a></button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function enter(){
+            let username = document.getElementById('name').value;
+            console.log(username);
+        }
+    </script>
+</body>
+</html>

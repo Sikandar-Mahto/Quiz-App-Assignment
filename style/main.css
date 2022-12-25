@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h3, h6, img, button, input{
+    margin: 7px 0px;
+    text-align: center;
+}
+
+img{
+    margin: 0px 250px;
+}
+input, button{
+    width: 100%;
+}
+
+.box{
+    width: 40%;
+    padding: 15px;
+    box-shadow: 0px 0px 5px grey;
+    background-color: #fff;
+
+}
+
+
+.box > .top-section > img{
+    width: 100px;
+    height: 100px;
+}
+
+.headings{
+    color: blue;
+}
+
+.bottom-section > button{
+    color: #fff;
+    background-color: blue;
+    padding: 10px;
+    border: none;
+}
+.bottom-section > button > a{
+    color: #fff;
+    /* background-color: blue; */
+    padding: 10px;
+    border: none;
+}
